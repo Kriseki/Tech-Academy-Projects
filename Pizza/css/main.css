@@ -1,0 +1,88 @@
+/*==========================
+	MAIN STYLES
+  ==========================*/
+body {
+	background-color: #F1DFB8;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: 'Roboto Slab', "helvetica neue", helvetica, serif;
+}
+
+#main {
+	width: 80%;
+	
+	margin: auto;
+	margin-top: 50px;
+	height: 1300px;
+}
+/*==========================
+	HEADER
+  ==========================*/
+#header {
+	text-align: center;
+	border: 1px solid black;
+	width: 100%;
+	height: 400px;
+	background-image: url("../images/pizzas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#header h1 {
+	color: white;
+	font-size: 60px;
+
+}
+
+#header h4 {
+	color: white;
+	margin-top: -30px;
+
+}
+
+#headertext {
+	margin-top: 100px;
+}
+
+/*==========================
+	PRICES
+  ==========================*/
+
+  #prices {
+  	border: 3px solid black;
+  	border-radius: 10px;
+  	text-align: center;
+  	background-color: #F7F0E2;
+  }
+
+  #prices h1, h3 {
+  	text-decoration: underline;
+  }
+
+  #sizes p {
+  	display: inline-block;
+  	padding: 0 25px;
+  }
+
+  #extras {
+  	padding-bottom: 20px;
+  	margin-bottom: 20px;
+  }
+
+/*==========================
+	MENU
+  ==========================*/
+#menu {
+	margin-top: 50px;
+	border: 3px solid black;
+	border-radius: 10px;
+	height: 1000px;
+	background-color: #F7F0E2;
+}
+
+
+#cart {
+	padding-top: 510px;
+}
